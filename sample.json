@@ -1,0 +1,130 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good afternoon", "Is anyone there?", "Hey there"],
+      "responses": ["Hello! I'm your PCOS health assistant. How can I help you with PCOS concerns today?", "Hi there! I'm here to provide information about PCOS detection, treatment, and management. What would you like to know?", "Greetings! I specialize in PCOS health information. Feel free to ask me about symptoms, diet, or treatment options."],
+      "context_set": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "I have to go", "Talk to you later", "Thanks, bye"],
+      "responses": ["Take care of your health! Remember to consult your doctor for personalized PCOS management.", "Stay consistent with your PCOS management plan! Goodbye!", "Wishing you the best on your PCOS journey. See you next time!"],
+      "context_set": [""]
+    },
+    {
+      "tag": "pcos_symptoms",
+      "patterns": ["What are the symptoms of PCOS?", "How do I know if I have PCOS?", "Signs of PCOS", "PCOS symptoms", "Do I have PCOS?", "Common PCOS signs"],
+      "responses": ["Common PCOS symptoms include: irregular periods, excess hair growth, acne, weight gain, hair loss, skin darkening, fertility issues, and mood changes. However, symptoms vary greatly between individuals.", "PCOS symptoms can include: menstrual irregularities, excessive androgen levels (causing hair growth/acne), polycystic ovaries, insulin resistance, weight management difficulties, and skin changes like acanthosis nigricans."],
+      "context_set": [""]
+    },
+    {
+      "tag": "pcos_diagnosis",
+      "patterns": ["How is PCOS diagnosed?", "PCOS diagnosis criteria", "Tests for PCOS", "What tests confirm PCOS?", "Diagnosing PCOS"],
+      "responses": ["PCOS is typically diagnosed using the Rotterdam criteria: you need 2 of these 3 - irregular periods, high androgen levels, and polycystic ovaries on ultrasound. Blood tests and physical exams are also used.", "Diagnosis involves: medical history review, physical exam for hair growth/acne, blood tests (hormones, insulin, glucose), and pelvic ultrasound to check ovarian cysts."],
+      "context_set": [""]
+    },
+    {
+      "tag": "pcos_medication",
+      "patterns": ["What medications treat PCOS?", "PCOS drugs", "Metformin for PCOS", "Birth control for PCOS", "PCOS treatment medication", "Spironolactone PCOS"],
+      "responses": ["Common PCOS medications include: Metformin for insulin resistance, birth control pills to regulate periods, Spironolactone for excess hair, Clomid for fertility, and supplements like myo-inositol.", "Medications depend on your goals: Birth control regulates cycles, Metformin improves insulin sensitivity, Spironolactone reduces androgen effects, and Letrozole helps with ovulation for those trying to conceive."],
+      "context_set": [""]
+    },
+    {
+      "tag": "pcos_diet",
+      "patterns": ["Best diet for PCOS", "PCOS food recommendations", "What to eat with PCOS", "PCOS nutrition", "Diet plan for PCOS", "Foods to avoid with PCOS"],
+      "responses": ["For PCOS, focus on: low glycemic foods, anti-inflammatory foods, high fiber, lean proteins, and healthy fats. Avoid processed foods, sugar, and refined carbs. Consider Mediterranean or low-carb diets.", "I recommend: complex carbs (whole grains), omega-3 rich foods, leafy greens, berries, nuts, and lean proteins. Limit dairy, sugar, and processed foods. Small, frequent meals help manage insulin."],
+      "context_set": [""]
+    },
+    {
+      "tag": "pcos_exercise",
+      "patterns": ["Best exercise for PCOS", "PCOS workout plan", "Yoga for PCOS", "How much exercise for PCOS?", "PCOS fitness"],
+      "responses": ["For PCOS, combine: cardio (30 mins daily), strength training (2-3x/week), and stress-reducing exercises like yoga. Consistency is more important than intensity.", "Excellent PCOS exercises include: brisk walking, swimming, cycling, weight training, and yoga poses like butterfly pose and sun salutations. Aim for 150 minutes weekly minimum."],
+      "context_set": [""]
+    },
+    {
+      "tag": "pcos_weight_management",
+      "patterns": ["How to lose weight with PCOS", "PCOS weight loss", "Weight management PCOS", "PCOS and obesity", "Difficulty losing weight PCOS"],
+      "responses": ["Weight loss with PCOS requires: low-carb diet, regular exercise, stress management, adequate sleep, and sometimes medication like Metformin. Even 5-10% weight loss can significantly improve symptoms.", "For PCOS weight management: focus on insulin-lowering foods, combine cardio and strength training, manage cortisol through stress reduction, and be patient - it may take longer but is achievable."],
+      "context_set": [""]
+    },
+    {
+      "tag": "pcos_fertility",
+      "patterns": ["PCOS and fertility", "Getting pregnant with PCOS", "PCOS infertility", "Fertility treatments PCOS", "Ovulation with PCOS"],
+      "responses": ["Many women with PCOS conceive successfully! Treatments include: lifestyle changes, ovulation induction drugs (Clomid/Letrozole), Metformin, and sometimes IVF. Work with a reproductive endocrinologist.", "For PCOS fertility: weight management often restores ovulation, medications like Letrozole can help, and monitoring ovulation cycles is key. Many women with PCOS have healthy pregnancies with proper care."],
+      "context_set": [""]
+    },
+    {
+      "tag": "pcos_emergency",
+      "patterns": ["PCOS emergency", "Severe PCOS pain", "When to go to hospital for PCOS", "PCOS complications emergency", "Acute PCOS symptoms"],
+      "responses": ["**Seek immediate medical care for: severe abdominal pain, heavy uncontrolled bleeding, difficulty breathing, or chest pain. For urgent concerns, contact your doctor or go to emergency services.**", "**Please consult emergency services for: intense pelvic pain, excessive bleeding, high fever, or any severe sudden symptoms. PCOS typically doesn't cause emergencies, but complications might.**"],
+      "context_set": [""]
+    },
+    {
+      "tag": "pcos_supplements",
+      "patterns": ["Supplements for PCOS", "Vitamins for PCOS", "Myo-inositol PCOS", "PCOS natural supplements", "Best supplements for PCOS"],
+      "responses": ["Research-supported PCOS supplements include: Myo-inositol (2000-4000mg daily), Vitamin D, Omega-3, N-acetylcysteine, Chromium, and Berberine. Always consult your doctor before starting supplements.", "Common helpful supplements: Myo-inositol for insulin sensitivity, Vitamin D for deficiency common in PCOS, Omega-3 for inflammation, and Magnesium for insulin function. Quality and dosage matter."],
+      "context_set": [""]
+    },
+    {
+      "tag": "pcos_mental_health",
+      "patterns": ["PCOS and depression", "Anxiety with PCOS", "PCOS mood swings", "Mental health PCOS", "PCOS emotional impact"],
+      "responses": ["PCOS significantly affects mental health. Many experience depression, anxiety, and poor body image. Seek support: therapy, support groups, stress management, and discuss with your doctor about treatment options.", "The hormonal fluctuations in PCOS can cause mood changes, anxiety, and depression. Prioritize self-care, consider counseling, practice stress reduction techniques, and know you're not alone in this struggle."],
+      "context_set": [""]
+    },
+    {
+      "tag": "pcos_skin_hair",
+      "patterns": ["PCOS acne treatment", "Excess hair growth PCOS", "Hair loss PCOS", "PCOS skin problems", "Hirsutism treatment"],
+      "responses": ["For PCOS skin/hair issues: Spironolactone reduces androgens, birth control can help, topical treatments for acne, laser/electrolysis for hair removal, and minoxidil for hair loss. Consistency is key.", "PCOS skin concerns include: acne (treat with retinoids, antibiotics), hirsutism (Spironolactone, cosmetic treatments), hair loss (addressing underlying hormones), and skin darkening (improving insulin sensitivity)."],
+      "context_set": [""]
+    },
+    {
+      "tag": "pcos_lifestyle",
+      "patterns": ["Lifestyle changes for PCOS", "PCOS daily routine", "Managing PCOS naturally", "PCOS self-care", "Holistic PCOS approach"],
+      "responses": ["Key lifestyle changes: balanced PCOS-friendly diet, regular exercise, stress management (yoga/meditation), adequate sleep, and consistent routine. Small, sustainable changes work best long-term.", "For PCOS management: establish sleep routine, practice mindful eating, incorporate movement you enjoy, manage stress through hobbies/relaxation, and build a support system. Consistency over perfection!"],
+      "context_set": [""]
+    },
+    {
+      "tag": "pcos_myths",
+      "patterns": ["PCOS myths", "False facts about PCOS", "PCOS misconceptions", "Is PCOS rare?", "Can PCOS be cured?"],
+      "responses": ["Common PCOS myths: 'It's just a fertility issue' (it's metabolic), 'Only overweight women get PCOS' (all body types affected), 'You can't get pregnant' (many do with treatment), and 'It's curable' (it's manageable).", "PCOS misconceptions include: 'It's caused by poor lifestyle' (genetics play big role), 'Birth control cures PCOS' (it manages symptoms), 'All women have cysts' (not necessarily), and 'It only affects reproduction' (impacts overall health)."],
+      "context_set": [""]
+    },
+    {
+      "tag": "pcos_monitoring",
+      "patterns": ["How to monitor PCOS", "PCOS tracking", "What to track with PCOS", "PCOS health metrics", "Monitoring PCOS progress"],
+      "responses": ["Track: menstrual cycles, symptoms (acne/hair growth), weight, mood changes, energy levels, and food intake. Regular blood tests (glucose, lipids, hormones) and ultrasounds are also important.", "For PCOS monitoring: use apps for cycle tracking, keep symptom journal, regular weigh-ins, blood pressure checks, and maintain records of doctor visits and test results. This helps identify patterns."],
+      "context_set": [""]
+    },
+    {
+      "tag": "pcos_long_term",
+      "patterns": ["Long term effects of PCOS", "PCOS health risks", "PCOS and diabetes", "PCOS heart disease risk", "PCOS future health"],
+      "responses": ["Long-term, unmanaged PCOS increases risks for: type 2 diabetes, heart disease, high blood pressure, cholesterol issues, sleep apnea, endometrial cancer, and mental health disorders. Proper management reduces these risks significantly.", "PCOS is associated with increased lifetime risks of metabolic syndrome, cardiovascular disease, diabetes, and certain cancers. However, with consistent management through lifestyle and medication, these risks can be dramatically reduced."],
+      "context_set": [""]
+    },
+    {
+      "tag": "pcos_doctors",
+      "patterns": ["What doctor for PCOS?", "PCOS specialist", "Who treats PCOS?", "Endocrinologist for PCOS", "Finding PCOS doctor"],
+      "responses": ["PCOS is typically managed by: Endocrinologists (hormone specialists), Gynecologists, Reproductive Endocrinologists (for fertility), and sometimes Primary Care doctors. Look for providers experienced with PCOS.", "Consider: Endocrinologist for metabolic aspects, Gynecologist for menstrual/ovarian issues, Reproductive Endocrinologist for fertility, Dermatologist for skin/hair, and Nutritionist for diet management."],
+      "context_set": [""]
+    },
+    {
+      "tag": "pcos_support",
+      "patterns": ["PCOS support groups", "PCOS community", "Dealing with PCOS emotionally", "PCOS help", "PCOS resources"],
+      "responses": ["Excellent PCOS support includes: online communities (PCOS Challenge, Soul Cysters), local support groups, therapy specializing in chronic conditions, and educational resources from reputable organizations.", "For PCOS support: join online forums, find local meetups, consider therapy for emotional aspects, follow evidence-based PCOS educators, and build a healthcare team that listens and supports you."],
+      "context_set": [""]
+    },
+    {
+      "tag": "appreciation",
+      "patterns": ["Thank you", "Thanks", "That was helpful", "I appreciate it", "Good bot", "Helpful information"],
+      "responses": ["You're welcome! Taking proactive steps to understand PCOS is empowering. Remember I'm here for general info - always consult your doctor for personal medical advice.", "Glad I could help! Managing PCOS is a journey, and education is the first step. You're doing great by seeking information!", "Any time! Remember that consistent small changes make big differences in PCOS management. You've got this!"],
+      "context_set": [""]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": ["I'm sorry, I'm designed to provide general PCOS information but not personal medical advice. Please consult your healthcare provider for specific concerns.", "I didn't quite understand. Could you rephrase your question about PCOS? For personal health issues, it's always best to talk to your doctor.", "My knowledge focuses on general PCOS education. For diagnoses, treatment plans, or medical emergencies, please consult qualified healthcare professionals."],
+      "context_set": [""]
+    }
+  ]
+}
